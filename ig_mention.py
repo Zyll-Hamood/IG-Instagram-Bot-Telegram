@@ -67,7 +67,6 @@ def work(update, context):
     else:
         session = 'your session'
     user = link.split('/')[4]
-    #user = '7.9x.moved'
     id = getid(session,user)
     try:
         resp = show(session,id)
